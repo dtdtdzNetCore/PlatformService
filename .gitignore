@@ -1,0 +1,75 @@
+# Build Folders (보통 빌드 아티팩트가 들어있는 폴더들)
+bin/
+obj/
+out/
+
+# User-specific Files (사용자 환경에 관련된 파일들)
+.vscode/
+.idea/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.sln
+*.http
+
+# Rider project files
+.idea/
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code workspace
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Resharper & Rider
+*.DotSettings.user
+_ReSharper*/
+
+# Log files
+*.log
+
+# NPM packages
+node_modules/
+
+# Visual Studio 2019/2022 cache/options directories
+.vs/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+# The packages folder can be ignored because of NuGet restore
+**/packages/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/build/
+#!**/packages/repositories.config
+
+# DotNetCore
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Azure Functions
+local.settings.json
+AzureFunctionsTools/
+
+# JetBrains Rider
+.idea/
+
+# Others
+dist/
